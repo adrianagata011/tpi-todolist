@@ -23,7 +23,7 @@ Se trata de una API REST sencilla para gestionar tareas (to-do list), desarrolla
 
 ## 📦 Estructura del Proyecto
 
-tpi-todolist/
+tpi-todolist<br>
 ├── src/
 │ └── app.js
 ├── tests/
