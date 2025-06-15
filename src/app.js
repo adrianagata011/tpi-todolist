@@ -29,6 +29,11 @@ app.post('/tasks', async (req, res) => {
     res.json(task);
 });
 
+app.delete('/tasks/:id', async (req, res) => {
+    await Task.findByIdAndDelete(req.params.id);
+    res.json({ message: 'Tarea eliminada' });
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
