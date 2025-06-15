@@ -23,19 +23,23 @@ Se trata de una API REST sencilla para gestionar tareas (to-do list), desarrolla
 
 ## 📦 Estructura del Proyecto
 
-tpi-todolist<br>
-├── src/
-│ └── app.js
-├── tests/
-│ └── api.test.js
-├── .github/
-│ └── workflows/
-│ └── ci.yml
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
-├── .env
-└── README.md
+tpi-todolist/<br>
+├── src/<br>
+│ └── app.js<br>
+├── tests/<br>
+│ └── api.test.js<br>
+├── .github/<br>
+│ └── workflows/<br>
+│ └── ci.yml<br>
+├── Dockerfile<br>
+├── docker-compose.yml<br>
+├── package.json<br>
+├── .env<br>
+├── frontend-todolist/<br>
+│ └── src/<br>
+│      └── App.js/<br>
+│      └── index.js/<br>
+└── README.md<br>
 
 ## 🧪 Testing
 
